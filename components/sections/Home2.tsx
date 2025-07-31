@@ -5,7 +5,6 @@ import Marquee from 'react-fast-marquee'
 export default function Home2() {
 	return (
 		<>
-
 			<section id="about" className="section-hero-2 position-relative pt-130 pb-3">
 				<div className="container hero-2">
 					<div className="border border-1 rounded-3">
@@ -69,7 +68,7 @@ export default function Home2() {
 												<span className="fs-6 text-300 mb-2">...and more</span>
 											</div>
 										</div>
-										<Link href="assets/resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
+										<Link href="/" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
 											<i className="ri-download-line text-primary-2" />
 											[ Download my CV ]
 										</Link>
