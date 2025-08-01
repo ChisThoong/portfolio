@@ -13,7 +13,14 @@ export default function Home2() {
 								<div className="col-lg-5 ps-lg-5 text-lg-start text-center">
 									<div className="position-relative mb-lg-0 mb-5">
 										<img src="assets/imgs/home-page-2/hero-1/people.png" alt="chisthongg" />
-										<div className="position-absolute end-0 top-100 bottom-20 translate-middle-y icon-decorate">
+										<div
+											className="position-absolute"
+											style={{
+											left: '50%',
+											top: '93%',
+											transform: 'translateX(-50%) translateY(-50%)',
+											}}
+										>
 											<img src="assets/imgs/home-page-2/hero-1/icon.svg" alt="chisthongg" />
 										</div>
 									</div>
