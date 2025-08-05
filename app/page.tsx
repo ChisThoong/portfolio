@@ -9,16 +9,20 @@ import Skills2 from "@/components/sections/Skills2"
 import Static2 from "@/components/sections/Static2"
 import Resume1 from "@/components/sections/Resume1"
 import Testimonials1 from "@/components/sections/Testimonials1"
-
+import Projects2 from "@/components/sections/Projects2"
+import Coporation2 from "@/components/sections/Coporation2"
+import Education2 from "@/components/sections/Education2"
 export default function Home() {
 
 	return (
 		<>
 			<Layout headerStyle={2} footerStyle={2}>
 				<Home2 />
-				{/* <Static2 /> */}
+				<Static2 />
 				<Service2 />
-				{/* <Projects1 /> */}
+				{/* <Projects2 />
+				<Coporation2/> */}
+				{/* <Education2/> */}
 				{/* <Resume1 /> */}
 				<Skills2 />
 				{/* <Brands1 /> */}
